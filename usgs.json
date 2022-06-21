@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655851914000,
+    "generated": 1655852513000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 34
+    "count": 35
   },
   "features": [
     {
@@ -88,6 +88,46 @@
         ]
       },
       "id": "mb80549534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.65,
+        "place": "2 km S of Indios, Puerto Rico",
+        "time": 1655850377370,
+        "updated": 1655852195120,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71355388",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/pr71355388.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 108,
+        "net": "pr",
+        "code": "71355388",
+        "ids": ",pr71355388,",
+        "sources": ",pr,",
+        "types": ",origin,phase-data,",
+        "nst": 10,
+        "dmin": null,
+        "rms": 0.12,
+        "gap": 200,
+        "magType": "md",
+        "type": "earthquake",
+        "title": "M 2.7 - 2 km S of Indios, Puerto Rico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8186666666667,
+          17.971,
+          13.18
+        ]
+      },
+      "id": "pr71355388"
     },
     {
       "type": "Feature",
@@ -215,7 +255,7 @@
         "mag": 5.9,
         "place": "46 km SW of Khōst, Afghanistan",
         "time": 1655844876148,
-        "updated": 1655851883776,
+        "updated": 1655852477153,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj3u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hj3u.geojson",
@@ -230,7 +270,7 @@
         "code": "7000hj3u",
         "ids": ",us7000hj3u,",
         "sources": ",us,",
-        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "types": ",dyfi,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
         "nst": null,
         "dmin": 1.496,
         "rms": 0.89,
