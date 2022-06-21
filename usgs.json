@@ -1,14 +1,94 @@
 {
   "type": "FeatureCollection",
   "metadata": {
-    "generated": 1655851554000,
+    "generated": 1655851914000,
     "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson",
     "title": "USGS Magnitude 2.5+ Earthquakes, Past Day",
     "status": 200,
     "api": "1.10.3",
-    "count": 32
+    "count": 34
   },
   "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.9,
+        "place": "36 km S of Denali National Park, Alaska",
+        "time": 1655851458147,
+        "updated": 1655851574184,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0227wtsp0j",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ak0227wtsp0j.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "automatic",
+        "tsunami": 0,
+        "sig": 129,
+        "net": "ak",
+        "code": "0227wtsp0j",
+        "ids": ",ak0227wtsp0j,",
+        "sources": ",ak,",
+        "types": ",origin,phase-data,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.07,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.9 - 36 km S of Denali National Park, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -151.5824,
+          63.2215,
+          16.1
+        ]
+      },
+      "id": "ak0227wtsp0j"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 2.66,
+        "place": "41 km NW of Stanley, Idaho",
+        "time": 1655850465040,
+        "updated": 1655851770320,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb80549534",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/mb80549534.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 109,
+        "net": "mb",
+        "code": "80549534",
+        "ids": ",mb80549534,",
+        "sources": ",mb,",
+        "types": ",origin,phase-data,",
+        "nst": 15,
+        "dmin": 0.787,
+        "rms": 0.26,
+        "gap": 63,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 2.7 - 41 km NW of Stanley, Idaho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2306667,
+          44.5231667,
+          5.06
+        ]
+      },
+      "id": "mb80549534"
+    },
     {
       "type": "Feature",
       "properties": {
@@ -135,17 +215,17 @@
         "mag": 5.9,
         "place": "46 km SW of Khōst, Afghanistan",
         "time": 1655844876148,
-        "updated": 1655851282825,
+        "updated": 1655851883776,
         "tz": null,
         "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj3u",
         "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000hj3u.geojson",
-        "felt": 40,
-        "cdi": 8.3,
+        "felt": 47,
+        "cdi": 7.4,
         "mmi": 7.158,
         "alert": "yellow",
         "status": "reviewed",
         "tsunami": 0,
-        "sig": 683,
+        "sig": 685,
         "net": "us",
         "code": "7000hj3u",
         "ids": ",us7000hj3u,",
